@@ -68,5 +68,5 @@ function nextButton() {
   updateButtons();
 }
 
-setInterval(nextButton, 3000); // Change button every 3 seconds (adjust as needed)
+setInterval(nextButton, 1000); // Change button every 3 seconds (adjust as needed)
 

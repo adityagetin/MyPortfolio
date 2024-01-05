@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #0faa31;
     padding: 1em 0;
 }
 
@@ -17,7 +17,7 @@ header p {
 #animatedText {
     font-family: "Poppins", sans-serif;
     width: 100vw;
-    font-size: 4em;
+    font-size: 3em;
     background: url(giphy.gif);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ header p {
 }
 
 section {
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 #about p {
@@ -53,7 +53,7 @@ section {
 }
 
 .download-btn:hover {
-    background-color: #2980b9;
+    background-color: #209123db;
 }
 
 .download-btn span,
@@ -86,10 +86,12 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
+    padding: 0.5em 0;
+    position:fixed !important;
     bottom: 0;
     width: 100%;
+    font-weight: lighter;
+    font-size: smaller;
 }
 
 /* Add a simple fade-in animation */
@@ -145,6 +147,7 @@ footer {
     color: #666;
 }
 
+
 .btn-primary,
 .btn-success {
     width: 80%;
@@ -171,6 +174,8 @@ footer {
     outline: none;
     transition: all 0.3s ease;
     margin-bottom: 0.5%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
 }
 
 .sills_button:hover {
@@ -182,8 +187,8 @@ footer {
 }
 
 .sills_button-disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+    opacity: 0.7;
+    cursor:progress;
 }
 
 .button-container > div.active {
@@ -206,6 +211,7 @@ footer {
 }
 
 
+
 @keyframes fadeInAnimation {
     from {
         opacity: 0;
@@ -222,4 +228,18 @@ footer {
 
 .card:hover {
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+    .sm{
+        margin-left: 15%;
+        margin-right:10%;
+    }
+    #butEpx{
+        margin-left: 20%;
+        margin-right:10%;
+    }
+    #butrp{
+        margin-left: 10%;
+    }
 }
